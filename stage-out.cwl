@@ -52,10 +52,10 @@ inputs:
     # uncomment these if using baseCommand: [aws]
     #inputBinding:
     #  position: 2
-outputs:
-  stdout_file:
-    type: stdout
-  stderr_file:
-    type: stderr
-stdout: stdout_stage-out.txt
-stderr: stderr_stage-out.txt
+outputs: []
+#  stdout_file:
+#    type: stdout
+#  stderr_file:
+#    type: stderr
+#stdout: stdout_stage-out.txt
+#stderr: stderr_stage-out.txt

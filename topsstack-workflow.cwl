@@ -38,18 +38,18 @@ outputs:
   final_dataset_dir:
     type: Directory
     outputSource: run-topsstack/dataset_dir
-  stdout_run-topsstack:
-    type: File
-    outputSource: run-topsstack/stdout_file
-  stderr_run-topsstack:
-    type: File
-    outputSource: run-topsstack/stderr_file
-  stdout_stage-out:
-    type: File
-    outputSource: stage-out/stdout_file
-  stderr_stage-out:
-    type: File
-    outputSource: stage-out/stderr_file
+#  stdout_run-topsstack:
+#    type: File
+#    outputSource: run-topsstack/stdout_file
+#  stderr_run-topsstack:
+#    type: File
+#    outputSource: run-topsstack/stderr_file
+#  stdout_stage-out:
+#    type: File
+#    outputSource: stage-out/stdout_file
+#  stderr_stage-out:
+#    type: File
+#    outputSource: stage-out/stderr_file
 
 steps:
   run-topsstack:
@@ -69,8 +69,8 @@ steps:
       track_number: workflow_track_number
     out:
     - dataset_dir
-    - stdout_file
-    - stderr_file
+#    - stdout_file
+#    - stderr_file
 
   stage-out:
     run: stage-out.cwl
@@ -79,6 +79,6 @@ steps:
       aws_secret_access_key: workflow_aws_secret_access_key
       dataset_dir: run-topsstack/dataset_dir
       base_dataset_url: workflow_base_dataset_url
-    out:
-    - stdout_file
-    - stderr_file
+    out: []
+#    - stdout_file
+#    - stderr_file
