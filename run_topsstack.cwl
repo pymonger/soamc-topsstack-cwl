@@ -41,8 +41,8 @@ requirements:
     coresMin: 8
     # the next 3 are in mebibytes
     ramMin: 64000
-    tmpdirMin: 200000
-    outdirMin: 100000
+    tmpdirMin: 700000
+    outdirMin: 300000
 inputs:
   urs_user: string
   urs_pass: string
