@@ -6,7 +6,7 @@
             "owsContext": {
                 "offering": {
                     "content": {
-                        "href": "https://raw.githubusercontent.com/pymonger/soamc-topsstack-cwl/patch-nfs/topsstack-workflow.cwl"
+                        "href": "https://raw.githubusercontent.com/pymonger/soamc-topsstack-cwl/patch-nfs-puerto-rico/topsstack-workflow.cwl"
                     }
                 }
             },
