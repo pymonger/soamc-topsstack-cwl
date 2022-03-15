@@ -10,7 +10,7 @@ hints:
       - aws_access_key_id
       - aws_secret_access_key
   DockerRequirement:
-    dockerPull: pymonger/aws-cli
+    dockerPull: artifactory.jpl.nasa.gov:17001/pymonger/aws-cli
 requirements:
   NetworkAccess:
     networkAccess: true

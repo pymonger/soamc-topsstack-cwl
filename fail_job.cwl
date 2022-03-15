@@ -25,7 +25,7 @@ hints:
       - urs_pass
 requirements:
   DockerRequirement:
-    dockerPull: hysds1/topsstack_hamsar:20220121
+    dockerPull: artifactory.jpl.nasa.gov:17001/hysds1/topsstack_hamsar:20220121
   InitialWorkDirRequirement:
     listing:
       - entryname: .netrc
