@@ -15,8 +15,8 @@ requirements:
     coresMin: 8
     # the next 3 are in mebibytes
     ramMin: 64000
-    tmpdirMin: 200000
-    outdirMin: 100000
+    tmpdirMin: 700000
+    outdirMin: 300000
 inputs:
   workflow_urs_user: string
   workflow_urs_pass: string
